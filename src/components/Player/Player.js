@@ -6,10 +6,10 @@ import "./Player.css";
 const Player = (props) => {
   const { image, name, salary } = props.player;
   return (
-    <div class="player-single-style">
+    <div class="player-single-style-div">
       <Card 
-        class="box-shadow rounded" 
-        style={{ width: "100%", textAlign: "center", border: "none" }}
+        class="rounded"
+        style={{textAlign: "center", border: "none", boxShadow: "0px 5px 15px 0px rgba(0, 0, 0, 0.15)"}}
       >
         <Card.Img variant="top" src={image} />
         <Card.Body>
