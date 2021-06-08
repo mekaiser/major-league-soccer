@@ -8,7 +8,7 @@ const Player = (props) => {
   return (
     <div class="player-single-style">
       <Card 
-        class="shadow rounded" 
+        class="box-shadow rounded" 
         style={{ width: "100%", textAlign: "center", border: "none" }}
       >
         <Card.Img variant="top" src={image} />
