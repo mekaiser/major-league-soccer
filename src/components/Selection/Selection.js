@@ -9,7 +9,7 @@ const Selection = (props) => {
 
     return (
         <div>
-            <h3 style={{fontWeight: "700", marginTop: "0.6em"}}>Selected List</h3>
+            <h3>Selected List</h3>
             <hr />
             <h4 style={{color: "#28a745"}}>Selected: {selectedPlayer.length}</h4>
             <h4 style={{color: "#ff6700"}}>Total budget: ${totalBudgetFinal}</h4>

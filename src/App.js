@@ -17,18 +17,18 @@ function App() {
   return (
     <div>
       <header>
-        <h1 class="title">Major League Soccer</h1>
+        <h1 className="title">Major League Soccer</h1>
       </header>
       <main>
-        <div class="all-players">
-          <div class="card-container">
-            <div class="card-style-div">
+        <div className="all-players">
+          <div className="card-container">
+            <div className="card-style-div">
               {player.map((playerInfo) => (
                 <Player player={playerInfo} selectionHandler = {handleSelection} key={playerInfo.id}></Player>
               ))}
             </div>
           </div>
-          <div class="selection-style">
+          <div className="selection-style">
             <Selection selectedPlayer = {selectedPlayer}></Selection>
           </div>
         </div>
